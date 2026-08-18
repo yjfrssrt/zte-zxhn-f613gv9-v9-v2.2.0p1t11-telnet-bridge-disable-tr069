@@ -1,0 +1,21 @@
+# Never publish device backups, credentials, or captures.
+captures/
+private/
+secrets/
+*.cfg
+*.bin
+*.base64
+*.log
+*.pcap
+*.pcapng
+*敏感*
+*secret*
+*credential*
+
+# Local binaries and build output.
+*.exe
+*.dll
+*.pdb
+
+# The reviewed ZIP is published; its unpacked staging directory stays local.
+release_assets/F613GV9_beginner_tools_windows_x64_open_components/
